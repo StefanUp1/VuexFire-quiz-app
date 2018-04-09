@@ -23,13 +23,8 @@
 </template>
 
 <script>
-    import {
-        mapActions,
-        mapGetters
-    } from 'vuex'
-    import {
-        questionsRef
-    } from '../firebase/firebase.js'
+    import { mapActions, mapGetters } from 'vuex'
+    import { questionsRef } from '../firebase/firebase.js'
 
     export default {
         name: 'App',
